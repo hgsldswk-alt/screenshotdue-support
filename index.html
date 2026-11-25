@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Screenshot To-Do help and privacy. 截图待办帮助与隐私。截圖待辦支援與隱私。">
+  <title>Screenshot To-Do · Help and privacy</title>
+  <style>
+    :root { color-scheme: light dark; --paper: #faf8f4; --surface: #fffdf9; --ink: #242c27; --muted: #565d55; --line: #d9e1d8; --accent: #3d684e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.65 system-ui, sans-serif; }
+    main { max-width: 52rem; margin: auto; padding: clamp(1rem, 5vw, 3rem); }
+    header { border-bottom: 1px solid var(--line); padding-bottom: 1.25rem; }
+    h1, h2, h3 { line-height: 1.22; }
+    h1 { margin: 0 0 .5rem; font-size: clamp(2rem, 8vw, 3.5rem); letter-spacing: -.035em; }
+    h2 { margin: 0 0 1rem; }
+    h3 { margin: 1.4rem 0 .5rem; }
+    p { margin: .5rem 0; }
+    p.intro { color: var(--muted); }
+    nav { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; margin-top: .75rem; }
+    a { color: var(--accent); text-underline-offset: .18em; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: .22rem; }
+    article { margin-top: 1.3rem; padding: clamp(1rem, 4vw, 1.8rem); border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); }
+    footer { margin-top: 1.3rem; color: var(--muted); }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #181d19; --surface: #242c27; --ink: #f4f1e9; --muted: #bbc8be; --line: #465048; --accent: #a9d1b8; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Screenshot To-Do</h1>
+      <p class="intro">Help and privacy · <span lang="zh-Hans">帮助与隐私</span> · <span lang="zh-Hant">支援與隱私</span></p>
+      <nav aria-label="Languages">
+        <a href="#en" lang="en">English</a>
+        <a href="#zh-hans" lang="zh-Hans">简体中文</a>
+        <a href="#zh-hant" lang="zh-Hant">繁體中文</a>
+      </nav>
+      <nav id="privacy" aria-label="Privacy policy">
+        <a href="#privacy-en" lang="en">Privacy policy</a>
+        <a href="#privacy-zh-hans" lang="zh-Hans">隐私政策</a>
+        <a href="#privacy-zh-hant" lang="zh-Hant">隱私政策</a>
+      </nav>
+    </header>
+    <article id="en" lang="en" aria-labelledby="help-en">
+      <h2 id="help-en">Help</h2>
+      <h3>Save and find a screenshot</h3>
+      <p>In the iPhone screenshot preview or Photos, tap Share and choose Screenshot To-Do. Use More in the share menu to enable it if needed. Write a short purpose, choose a day, and save. You can also use Add screenshot from the app.</p>
+      <p>Enable reminders from the app or iPhone Settings. Tap a reminder to open the saved image, then pinch to zoom or mark the to-do done. Focus and iOS scheduling can affect delivery. The Due today list is always available.</p>
+      <h3>Review old screenshots and restore purchases</h3>
+      <p>Review old works with screenshots you allow. A screenshot marked for deletion stays in the basket until you review it and confirm in Photos. The app skips images it cannot read locally.</p>
+      <p>Pro is available for 30 days from first launch, with no automatic charge. The free version has room for 10 open to-dos. Existing to-dos remain available. Settings → Lifetime unlock shows the local one-time price and Restore purchases.</p>
+      <h3 id="privacy-en">Privacy policy</h3>
+      <p>The app has no account, ads, analytics, or app-operated server. Screenshots, to-dos, templates and preferences stay on your device. App copies and records are excluded from iCloud backup. Photos access is used to review authorized screenshots and delete originals only after Apple’s confirmation.</p>
+      <p>Default notifications hide your purpose text. Lock Screen widgets show the count and next time, subject to iOS privacy settings. Shared cards carry aggregated counts, the app name and a link. They do not include images or personal notes. Template codes carry only predefined types and relative dates.</p>
+      <p>Apple processes purchases, restoration and ratings. Opening a store or support link is optional. If you contact us, we use your email and message to respond.</p>
+      <p>Support: <a href="mailto:2522855586@qq.com">2522855586@qq.com</a></p>
+    </article>
+    <article id="zh-hans" lang="zh-Hans" aria-labelledby="help-zh-hans">
+      <h2 id="help-zh-hans">帮助</h2>
+      <h3>保存和找回截图</h3>
+      <p>在 iPhone 截图预览或相册里点「分享 → 截图待办」。如果没有显示，可在分享菜单的「更多」中启用。写一行用途、选一天处理，再保存。也可以在应用内点「添加截图」。</p>
+      <p>在应用或 iPhone 设置中开启提醒。点通知打开保存的原图，可捏合放大或标为已处理。专注模式和 iOS 调度会影响通知，首页仍会显示到期事项。</p>
+      <h3>清旧账和恢复购买</h3>
+      <p>清旧账只读取你授权的截图。标记待删后需在待删篮复核，并在系统相册确认。暂时读不到的本机图片可跳过。</p>
+      <p>首次打开起可体验高级功能 30 天，结束后不会自动扣费。免费同时可添加 10 张未办截图，已有记录可继续使用。「设置 → 一次买断」可查询当地价格和恢复购买。</p>
+      <h3 id="privacy-zh-hans">隐私政策</h3>
+      <p>应用无账号、广告、统计或自建服务器。截图、待办、模板和偏好保留在本机，应用副本与记录排除在 iCloud 备份之外。相册权限用于查看已授权的截图，删除相册原件由 Apple 系统确认。</p>
+      <p>通知默认隐藏用途，锁屏小组件只显示数量与下一项时间，并遵循 iOS 隐私设置。分享卡只携带统计、应用名和链接，不含原图和个人备注。模板口令只含预设类型及相对日期。</p>
+      <p>购买、恢复购买和评分由 Apple 处理。商店和支持页链接由你主动打开。如果你来信，我们使用你的邮箱和邮件内容回复。</p>
+      <p>联系邮箱：<a href="mailto:2522855586@qq.com">2522855586@qq.com</a></p>
+    </article>
+    <article id="zh-hant" lang="zh-Hant" aria-labelledby="help-zh-hant">
+      <h2 id="help-zh-hant">支援</h2>
+      <h3>儲存和找回截圖</h3>
+      <p>在 iPhone 截圖預覽或相簿中點「分享 → 截圖待辦」。未顯示時可在分享選單的「更多」啟用。寫一行用途、選一天處理，再儲存。也可以在 App 中點「新增截圖」。</p>
+      <p>在 App 或 iPhone 設定開啟提醒。點通知會打開儲存的原圖，可用雙指縮放或標為已處理。專注模式與 iOS 排程會影響通知，首頁仍會顯示到期事項。</p>
+      <h3>清理舊截圖和回復購買</h3>
+      <p>清理舊截圖只會讀取你授權的截圖。標為待刪後，需檢查清單並在系統相簿確認。暫時無法在本機讀取的截圖可略過。</p>
+      <p>首次開啟起可體驗進階功能 30 天，結束後不會自動扣款。免費可同時新增 10 張未辦截圖，既有紀錄可繼續使用。「設定 → 永久解鎖」可查看當地價格和回復購買。</p>
+      <h3 id="privacy-zh-hant">隱私政策</h3>
+      <p>App 無帳號、廣告、統計或自建伺服器。截圖、待辦、範本和偏好留在本機，App 副本與紀錄排除在 iCloud 備份之外。相簿權限用於查看已授權的截圖，刪除相簿原始照片由 Apple 系統確認。</p>
+      <p>通知預設隱藏用途。鎖定畫面小工具只顯示數量和下一項時間，並遵守 iOS 隱私設定。分享卡僅有統計、App 名稱和連結，沒有原圖和個人備註。範本代碼只含預設類型及相對日期。</p>
+      <p>購買、回復購買與評分由 Apple 處理。商店和支援頁連結由你主動開啟。如果你來信，我們會使用你的電郵地址與內容回覆。</p>
+      <p>支援信箱：<a href="mailto:2522855586@qq.com">2522855586@qq.com</a></p>
+    </article>
+    <footer>© 2026 Haolong Jin</footer>
+  </main>
+</body>
+</html>
